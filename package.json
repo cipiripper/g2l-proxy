@@ -1,0 +1,27 @@
+{
+  "name": "g2l-proxy",
+  "version": "1.0.0",
+  "description": "Global-to-local proxy server",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "NODE_NO_WARNINGS=1 node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipiripper/g2l-proxy.git"
+  },
+  "author": "Marko Matić",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cipiripper/g2l-proxy/issues"
+  },
+  "homepage": "https://github.com/cipiripper/g2l-proxy#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}
